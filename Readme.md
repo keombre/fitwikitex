@@ -4,7 +4,7 @@ Are latex images missing from fit-wiki?
 
 Use this one easy fix!
 
-Sysadmins hate him us using this simple trick!
+Sysadmins hate him for using this simple trick!
 
 # Install
 
