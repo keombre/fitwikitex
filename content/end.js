@@ -1,7 +1,7 @@
 const realSource = "https://fit-wiki.cz/_media/latex/"
 
 const loaded = img => {
-    if (img.complete && img.naturalHeight != 0)
+    if ((img.complete && img.naturalHeight != 0) || img.src.includes("_media/latex"))
         return
     const query = new URLSearchParams(img.src.split("?")[1])
     if (query.has("media")) {
