@@ -1,6 +1,6 @@
 # Fit-WiKi TeX Fixer
 
-Are latex images from fit-wiki not displaying?
+Are latex images missing from fit-wiki?
 
 Use this one easy fix!
 
