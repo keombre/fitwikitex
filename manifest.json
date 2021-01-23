@@ -1,0 +1,24 @@
+{
+    "name": "fitwikitex",
+    "version": "1.0.0",
+    "description": "Fix missing miktex links on fit-wiki",
+    "manifest_version": 2,
+    "permissions": [
+        "*://fit-wiki.cz/*"
+    ],
+    "browser_action": {
+        "default_title": "Fit-WiKi Tex",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "512": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "js": ["content/end.js"],
+            "matches": ["*://fit-wiki.cz/*"],
+            "all_frames": true
+        }
+    ]
+}
